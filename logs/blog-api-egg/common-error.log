@@ -1,0 +1,189 @@
+2018-05-06 18:02:55,742 ERROR 9552 [-/127.0.0.1/-/11ms GET /] nodejs.ReferenceError: app is not defined
+    at HomeController.index (/Users/zvzk/Desktop/react/blog-api-egg/app/controller/home.js:8:17)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 9552
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 18:09:15,905 ERROR 9578 [-/127.0.0.1/-/7ms GET /] nodejs.TypeError: this.app.mysql.insert is not a function
+    at HomeController.index (/Users/zvzk/Desktop/react/blog-api-egg/app/controller/home.js:7:42)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 9578
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 18:10:25,112 ERROR 9581 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: this.app.mysql is not a function
+    at HomeController.index (/Users/zvzk/Desktop/react/blog-api-egg/app/controller/home.js:9:30)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 9581
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 18:24:43,765 ERROR 9662 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: this.app.mysql.insert is not a function
+    at HomeController.index (/Users/zvzk/Desktop/react/blog-api-egg/app/controller/home.js:7:42)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 9662
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 18:33:25,999 ERROR 9730 [-/127.0.0.1/-/7ms GET /] nodejs.TypeError: ctx.service.home.find is not a function
+    at HomeController.index (/Users/zvzk/Desktop/react/blog-api-egg/app/controller/home.js:12:30)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 9730
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 19:58:22,408 ERROR 10017 [-/127.0.0.1/-/210ms POST /article/add] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'title' doesn't have a default value
+    at Query.Sequence._packetToError (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/co/index.js:65:19)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/co/index.js:54:5
+    sql: INSERT INTO `article`() VALUES()
+code: 'ER_NO_DEFAULT_FOR_FIELD'
+errno: 1364
+sqlMessage: 'Field \'title\' doesn\'t have a default value'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `article`() VALUES()'
+name: 'ER_NO_DEFAULT_FOR_FIELDError'
+pid: 10017
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 20:23:41,052 ERROR 10093 [-/127.0.0.1/-/6ms GET /article/get/2] nodejs.ReferenceError: d is not defined
+    at ArticleController.getById (/Users/zvzk/Desktop/react/blog-api-egg/app/controller/article.js:39:26)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 10093
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 20:48:03,078 ERROR 10177 [-/127.0.0.1/-/170ms GET /tag/list] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blog.tag' doesn't exist
+    at Query.Sequence._packetToError (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/co/index.js:65:19)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `tag` LIMIT 0, 1
+code: 'ER_NO_SUCH_TABLE'
+errno: 1146
+sqlMessage: 'Table \'blog.tag\' doesn\'t exist'
+sqlState: '42S02'
+index: 0
+sql: 'SELECT * FROM `tag` LIMIT 0, 1'
+name: 'ER_NO_SUCH_TABLEError'
+pid: 10177
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 20:49:51,202 ERROR 10180 [-/127.0.0.1/-/357ms GET /tag/list] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'blog.tag' doesn't exist
+    at Query.Sequence._packetToError (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/co/index.js:65:19)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `tag`
+code: 'ER_NO_SUCH_TABLE'
+errno: 1146
+sqlMessage: 'Table \'blog.tag\' doesn\'t exist'
+sqlState: '42S02'
+index: 0
+sql: 'SELECT * FROM `tag`'
+name: 'ER_NO_SUCH_TABLEError'
+pid: 10180
+hostname: ZvzkdeMacBook-Pro.local
+

@@ -1,0 +1,80 @@
+2018-05-06 19:37:51,311 WARN 9974 [-/127.0.0.1/-/1ms POST /article/getList] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-06 19:37:51,312 WARN 9974 [-/127.0.0.1/-/3ms POST /article/getList] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 9974
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 19:38:28,526 WARN 9974 [-/127.0.0.1/-/21ms POST /article/getList] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-06 19:38:28,526 WARN 9974 [-/127.0.0.1/-/21ms POST /article/getList] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 9974
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 19:38:41,000 WARN 9974 [-/127.0.0.1/-/1ms POST /article/getList] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-06 19:38:41,000 WARN 9974 [-/127.0.0.1/-/1ms POST /article/getList] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 9974
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 19:49:10,012 WARN 9986 [-/127.0.0.1/-/2ms POST /article/getList] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-06 19:49:10,016 WARN 9986 [-/127.0.0.1/-/5ms POST /article/getList] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 9986
+hostname: ZvzkdeMacBook-Pro.local
+
+2018-05-06 19:57:20,298 WARN 10017 [-/127.0.0.1/-/4ms POST /article/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-06 19:57:20,299 WARN 10017 [-/127.0.0.1/-/6ms POST /article/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at /Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/zvzk/Desktop/react/blog-api-egg/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 10017
+hostname: ZvzkdeMacBook-Pro.local
+
